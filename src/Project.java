@@ -52,7 +52,7 @@ public class Project {
                 System.out.println("Число " + searchNumber + " не знайдено в матриці.");
             }
         }
-        
+
         public static void printMatrix(int[][] matrix) {
             for (int[] row : matrix) {
                 for (int element : row) {
